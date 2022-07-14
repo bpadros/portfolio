@@ -89,7 +89,7 @@ section {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
@@ -157,3 +157,52 @@ img {
 
 }
 
+.contacto{
+    text-align: center;
+}
+
+.card{
+    border: 5px solid black;
+   margin: 20px;
+}
+
+.btn-card{
+    color: black;
+    text-align: center;
+    border: 1px solid  #5EE0C2;
+    width: 240px;
+    background-color: #5EE0C2;
+
+}
+
+.img-card{
+    width: 240px;
+    height: 240px;
+}
+
+.btn-card:hover{
+    color: #5EE0C2;
+    background-color: black;
+}
+
+.div-card{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+button{
+    padding: 25px 120px;
+    margin-bottom: 150px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    border-radius:8px
+}
+
+button:hover{
+ color: yellow
+ 
+}
