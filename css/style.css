@@ -194,7 +194,7 @@ img {
 
 button{
     padding: 25px 120px;
-    margin-bottom: 150px;
+    margin-bottom: 25px;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
@@ -205,4 +205,26 @@ button{
 button:hover{
  color: yellow
  
+}
+
+.div-agregar{
+    display: flex;
+    justify-content: center;
+    color: black;
+   
+}
+
+.title-sec-3{
+    margin-top: 150px;
+}
+
+
+.link-js{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+   text-decoration: underline;
+   /* border: 1px solid black; */
+   text-align: center;
+   
 }
