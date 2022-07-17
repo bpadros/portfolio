@@ -10,9 +10,12 @@
       content="argentina, noa, nea, region patagonica, region pampeana, cuyo, turismo,jujuy,tucuman,catamarca,salta,santiago del estero, formosa, chaco, corrientes, misiones, la rioja, san juan, san luis, mendoza, cordoba, santa fe, buenos aires, la pampa"
     />
     <meta name="description" content="PORTFOLIO Benjamin Padros" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Happy+Monkey&family=Orbitron:wght@400;600&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Happy+Monkey&family=Orbitron:wght@400;600&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <script
@@ -25,19 +28,20 @@
 
   <body>
     <header>
-      <nav>
-        <a href="#seccion-1">About</a>
+      <nav >
+        <ul class="navbar">
+          <li><a href="#seccion-1">About</a></li>
+          <li><a href="#seccion-2">Work</a></li>
 
-        <a href="#seccion-2">Work</a>
-
-        <a href="#seccion-3">Contact</a>
+          <li><a href="#seccion-3">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
       <!-- Sección 1 -->
       <section id="seccion-1">
-        <div class="flexbox-container">
+        <div class="flexbox-container sec-1">
           <div>
             <img src="./img/perfil cv.jpg" class="perfil" alt="" />
           </div>
@@ -97,68 +101,98 @@
             ><h2 class="boton-">Basketball score</h2></a
           >
         </div> -->
-     
-<div class="div-card">
 
-
-  <div class="card">
-    <img  class="img-card"src="img/auto-portfolio.png" alt="">
-    <a  class="btn-card"href="https://tu-auto.netlify.app/" target="_blank">Cars</a>
-  </div>
-  <div class="card">
-    <img  class="img-card"src="img/meme-card.png" alt="">
-    <a  class="btn-card"href="https://bpadros.github.io/meme_generator/" target="_blank">Meme</a>
-  </div>
-  <div class="card">
-    <img  class="img-card"src="img/reloj-card.png" alt="">
-    <a  class="btn-card"href="https://reloj-color.netlify.app/" target="_blank">Watch</a>
-  </div>
-  <div class="card">
-    <img  class="img-card"src="img/calculatorjs.png" alt="">
-    <a  class="btn-card"href="https://calculadorajavascriptcss.netlify.app/"
-    target="_blank">Calculator</a>
-  </div>
-
-
-
-
-</div>
-     
-<div class="div-card">
-
-
-  <div class="card">
-    <img  class="img-card"src="img/basket-card.png" alt="">
-    <a  class="btn-card"href="https://clinquant-heliotrope-00c2be.netlify.app/"
-    target="_blank">Basketball</a>
-  </div>
-  <div class="card">
-    <img  class="img-card"src="img/crudcafe-card.png" alt="">
-    <a  class="btn-card"href="https://bpadros.github.io/crud-cafe/" target="_blank">Cafe</a>
-  </div>
-  <div class="card">
-    <img  class="img-card"src="img/turismo-card.png" alt="">
-    <a  class="btn-card"href="https://turismo-argentina2022.netlify.app/" target="_blank">Tourism</a>
-  </div>
-  <div class="card">
-    <img  class="img-card"src="img/word-card.png" alt="">
-    <a  class="btn-card"href="https://bpadros.github.io/wordcounter/" target="_blank">W-counter</a>
-  </div>
-</div>
-
- <button id="more" onclick="add()">CLICK HERE FOR MORE PROJECTS</button>
- <div id="agregar" class="div-agregar">
- 
-
- </div>
-
-</section>  
-
-
-
+        <div class="div-card card-1">
+          <div class="colu-1">
+          <div class="card">
+            <img class="img-card" src="img/auto-portfolio.png" alt="" />
+            <a
+              class="btn-card"
+              href="https://tu-auto.netlify.app/"
+              target="_blank"
+              >Cars</a
+            >
+          </div>
+          <div class="card">
+            <img class="img-card" src="img/meme-card.png" alt="" />
+            <a
+              class="btn-card"
+              href="https://bpadros.github.io/meme_generator/"
+              target="_blank"
+              >Meme</a
+            >
+          </div>
+        </div>
+        <div class="colu-1">
+          <div class="card">
+            <img class="img-card" src="img/reloj-card.png" alt="" />
+            <a
+              class="btn-card"
+              href="https://reloj-color.netlify.app/"
+              target="_blank"
+              >Watch</a
+            >
+          </div>
+          <div class="card">
+            <img class="img-card" src="img/calculatorjs.png" alt="" />
+            <a
+              class="btn-card"
+              href="https://calculadorajavascriptcss.netlify.app/"
+              target="_blank"
+              >Calculator</a
+            >
+          </div>
+        </div>
+      </div>
+        <div class="div-card card-2">
+          <div class="colu-1">
+          <div class="card">
+            <img class="img-card" src="img/basket-card.png" alt="" />
+            <a
+              class="btn-card"
+              href="https://clinquant-heliotrope-00c2be.netlify.app/"
+              target="_blank"
+              >Basketball</a
+            >
+          </div>
+          <div class="card">
+            <img class="img-card" src="img/crudcafe-card.png" alt="" />
+            <a
+              class="btn-card"
+              href="https://bpadros.github.io/crud-cafe/"
+              target="_blank"
+              >Cafe</a
+            >
+          </div>
+        </div>
+        <div class="colu-1">
+          <div class="card">
+            <img class="img-card" src="img/turismo-card.png" alt="" />
+            <a
+              class="btn-card"
+              href="https://turismo-argentina2022.netlify.app/"
+              target="_blank"
+              >Tourism</a
+            >
+          </div>
+          <div class="card">
+            <img class="img-card" src="img/word-card.png" alt="" />
+            <a
+              class="btn-card"
+              href="https://bpadros.github.io/wordcounter/"
+              target="_blank"
+              >W-counter</a
+            >
+          </div>
+        </div>
+      </div>
+        <button id="more" onclick="add()">CLICK HERE FOR MORE PROJECTS</button>
+        <div id="agregar" class="div-agregar"></div>
+      </section>
 
       <!-- Sección 3 -->
-      <section id="seccion-3">
+      
+      <section id="seccion-3" class="sec-3">
         <h2 class="title-sec-3">Let's work together</h2>
         <h5>Contact me.</h5>
         <h5>Links social media:</h5>
@@ -181,6 +215,7 @@
           <h4>-E-mail: bpadros@gmail.com</h4>
         </div>
       </section>
+   
     </main>
     <script src="index.js"></script>
   </body>
