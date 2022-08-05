@@ -169,3 +169,10 @@ i{
     margin-right: 2px;
     margin-left: 2px;
 }
+
+/* @media (max-width:900px) {
+.container{
+    display: flex;
+    flex-direction: column;
+}
+} */
