@@ -8,15 +8,13 @@ html {
     scroll-behavior: smooth;
   }
 
-nav{
-    position: fixed;
-}
+
 
 ul{
     list-style: none;
     display: flex;
     justify-content: center;
-   
+  
     /* width: 800px; */
 }
 
