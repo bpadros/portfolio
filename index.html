@@ -1,188 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Happy+Monkey&family=Ibarra+Real+Nova&family=Orbitron:wght@400;600&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&family=Titan+One&display=swap"
-      rel="stylesheet"
-    />
-    <title>Portfolio</title>
-    <script
-      src="https://kit.fontawesome.com/3fc9c95924.js"
-      crossorigin="anonymous"
-    ></script>
-     <script src="./js/smooth-scroll.min.js"></script>
-     <script src="./js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <header>
-      <nav class="nav">
-        <ul>
-          <li><a href="#seccion-1">About me</a></li>
-          <li><a href="#seccion-2">Projects</a></li>
-          <li><a href="#seccion-3">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-
-      <section id="seccion-1">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Benjamin Padros Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
-      <section class="container">
-        <div>
-          <p class="profile">Hi I’m Benjamin Padros</p>
-          <p class="career">Full-Stack Web Developer</p> 
-          <!-- <p>Abilities:</p> -->
-          <div class="abilities">
-            <p class="skill">Html</p>
-            <p class="skill">Css</p>
-            <p class="skill">Javascipt</p>
-            <p class="skill">React.js</p>
-            <p class="skill">Bootstrap</p>
-          </div>
-          <div class="abilities">
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
 
-            <p class="skill">MongoDB</p>
-            <p class="skill">Express</p>
-            <p class="skill">Python</p>
-            <p class="skill">Postman</p>
-            <p class="skill">Robo 3t</p>
-          </div>
-          
-          
-        </div>
-       <div>
-
-       </div>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+               
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Benjamin Padros</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+            <img src="img/perfil cv.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+         <!-- My services -->
+         <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                   
+                </div> <!-- / service -->
+                
+               
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section id="about">
+           <h2 class="section__title section__title--about who">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Developer living in Tucuman,Argentina</p>
+           <p>I was always interested in web development , after I finisihed school I started studying web development as a self-student, in 2021 ,after studying for over 8 months I finished my Full-stack web developer degree.</p>
+            <p>This year I continue making new projects on my own and continue studying to learn more about this amazing career.</p>
+           
+        </section>
+        
        
-<!-- <div>
-  
-</div> -->
-        <img src="img/perfil cv.jpg" alt="" class="img-profile" /> 
-      </section>
-<div  id="seccion-2">
-  <h3 class="title-sec-2">This are some of my projects</h3>
-</div>
-      <section class="sec-2">
-        <div>
-          <img src="img/godfather api quote.png" alt="" />
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Take a look to some of my projects</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="turismo-item.html" class="portfolio__item">
+                    <img src="img/turismo-card.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="godfather-item.html" class="portfolio__item">
+                    <img src="img/godfather api quote.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="mortal-kombat-item.html" class="portfolio__item">
+                    <img src="img/259876.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="cars-item.html" class="portfolio__item">
+                    <img src="img/joey-banks-YApiWyp0lqo-unsplash.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="movie-search-item.html" class="portfolio__item">
+                    <img src="img/movie-search.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="word-counter-item.html" class="portfolio__item">
+                    <img src="img/word-card.png" alt="" class="portfolio__img">
+                </a>
+                
+            </div>
+            <br><br>
+             <div>
+                <a href="https://github.com/bpadros?tab=repositories" target="_blank" class="btn-item">Click here for more projects</a>
+           
         </div>
-        <div class="col-text">
-          <h1 class="title-project">The godfather API quotes</h1>
-          <a href="https://godfather-api-quote.netlify.app/" target="_blank" class="btn-project">View Project</a>
-          <p>
-            If you a are fan of The godfather trilogy as me , here you can find
-            a site where you can find the best quotes of the best trilogy of all
-            time.
-          </p>
-        </div>
-      </section>
-      <section class="sec-2 col-2">
-        <div  class="col-text">
-          <h1 class="title-project ">Mortal Kombat Dice Battle</h1>
-          <a
-            href="https://kombat-game.netlify.app/"
-            target="_blank"
-            class="btn-project"
-            >View Project</a
-          >
-          <p>
-            In this game you are gonna get into a dice fight against three mortal kombat characters.Good Luck!
-          </p>
-        </div>
-        <div>
-          <img src="img/259876.jpg" alt="" />
-        </div>
-      </section>
-      <section class="sec-2">
-        <div>
-          <img src="img/joey-banks-YApiWyp0lqo-unsplash.jpg" alt="" />
-        </div>
-        <div class="col-text">
-          <h1 class="title-project">Cars sale</h1>
-          <a
-            href="https://tu-auto.netlify.app/admin.html"
-            target="_blank"
-            class="btn-project"
-            >View Project</a
-          >
-          <p>
-            In this project you will complete a form with all the information
-            about the cars you are looking for,you can addd,delete or edit the
-            products you update for.
-          </p>
-        </div>
-      </section>
-      <section class="sec-2 col-2">
-        <div class="col-text">
-          <h1 class="title-project">Tourism Argentina</h1>
-          <a
-            href="https://turismo-argentina2022.netlify.app/"
-            target="_blank"
-            class="btn-project"
-            >View Project</a
-          >
-          <p>
-            Here you will find information about all the places in Argentina
-            divide by regions where you can visit for tourism.
-          </p>
-        </div>
-        <div>
-          <img src="img/turismo-card.png" alt="" />
-        </div>
-      </section>
-
-      <section>
-        <button class="btn-more" id="btn-moree">
-          CLICK HERE FOR MORE PROJECTS
-        </button>
-      </section>
-
-      <div id="more"></div>
-
-
-
-
-      <section id="seccion-3" class="sec-3">
-        <h2 class="title-sec-3">Let's work together</h2>
-        <h5>Contact me.</h5>
-        <h5>Links social media:</h5>
+        </section>
+        
        
-        <div class="botones">
-          <a href="https://github.com/bpadros" target="_blank"
-            ><i class="fab fa-github fa-3x text-dark"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/benjaminpadros/" target="_blank"
-            ><i class="fab fa-linkedin fa-3x text-dark"></i
-          ></a>
-          <a href="https://www.facebook.com/benjamin.padros" target="_blank"
-            ><i class="fab fa-facebook fa-3x text-dark"></i
-          ></a>
-        </div>
-      
-        <div class="contacto">
-          <h4>-Phone number: +549-3815-201213</h4>
-          <h4>-E-mail: bpadros@gmail.com</h4>
-        </div>
-      </section>
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
-    <script src="index.js"></script>
-  </body>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:bpadros@gmail.com" class="footer__link">bpadros@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/bpadros">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/benjamin.padros/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/benjaminpadros/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+              
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
 </html>
