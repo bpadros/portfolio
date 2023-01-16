@@ -44,7 +44,8 @@
 
 
 body {
-    background: var(--clr-light);
+    /* background: var(--clr-light); */
+    background: beige;
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -393,6 +394,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    /* width: 80%; */
 }
 
 .portfolio__item {
@@ -402,9 +404,9 @@ header {
 }
 
 .portfolio__img {
-    width: 600px;
+    /* width: 600px; */
     height: 400px;
-   
+   width: 100%;
     /* width: 363px;
     height: 235px; */
     border: 1px solid white;
@@ -510,4 +512,71 @@ p{
 
 .who{
     text-align: center;
+}
+
+.who-i-am {
+    width: 60%;
+    margin: auto;
+}
+
+/* .project-individual {
+    border: 2px solid black;
+} */
+
+.project-title{
+    text-align: center;
+    /* border: 2px solid black; */
+    /* border-radius: 10px;
+    background-color: aliceblue; */
+    /* position: relative;
+    bottom:60px; */
+    /* margin-top: -10px; */
+}
+
+.technologies {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 0;
+}
+
+.tech {
+    border: 1px solid black;
+    padding: 0px 8px;
+    border-radius: 15px;
+    background-color:gray;
+    color: white;
+    font-weight: 400;
+}
+
+.title-tech {
+    text-align: center;
+}
+
+.contenedor { 
+    /* border: 1px solid black; */
+    background-color:white;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    width: 90%;
+    margin: 20px;
+}
+
+.btn-links {
+    font-size: 24px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 3px 40px;
+   border-radius: 10px;
+   background-color:black;
+   color: white;
+}
+
+.cont-links{
+    text-align: center;
+    
+}
+
+.project-text{
+    width: 88%;
+    margin: auto;
 }

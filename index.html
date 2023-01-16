@@ -1,152 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Benjamin Padros Portfolio</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <!-- Update these with your own fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
 
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-               
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Benjamin Padros</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
-            <img src="img/perfil cv.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
-        </section>
-         <!-- My services -->
-         <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Design + Development</h3>
-                   
-                </div> <!-- / service -->
-                
-               
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
-        <!-- About me -->
-        <section id="about">
-           <h2 class="section__title section__title--about who">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Developer living in Tucuman,Argentina</p>
-           <p>I'm a Full-Stack web developer actually living in Tucuman,Argentina.I was always interested in web development , after I finisihed school I started studying web development as a 
-            self-student, in 2021 ,after studying for over 8 months I finished my Full-stack web developer degree.</p>
-            <p>This year I continue making new projects on my own and continue studying to learn more about this amazing career.</p>
-           <p>I love to create projects and show them to people,so it woluld be a pleasure if you take at some of them here in my portfolio,and remember that critics and advices are always 
-            welcome.So if you just have something lo tell me,just contact me and we keep in contact.</p>
-        </section>
-        
-       
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">Take a look to some of my projects</p>
-            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="turismo-item.html" class="portfolio__item">
-                    <img src="img/turismo-card.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 02 -->
-                <a href="movie-database.html" class="portfolio__item">
-                    <img src="img/movie-ticket-11.png" alt="" class="portfolio__img">
-                </a>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Padros Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
-                <a href="online-store.html" class="portfolio__item">
-                    <img src="img/store1.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <a href="news-blog-item.html" class="portfolio__item">
-                    <img src="img/news-blog-header-2.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="cars-item.html" class="portfolio__item">
-                    <img src="img/joey-banks-YApiWyp0lqo-unsplash.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 05 -->
-                <a href="delivery-app.html" class="portfolio__item">
-                    <img src="img/delivery-app-portfolio.png" alt="" class="portfolio__img">
-                </a>
-                <!-- <a href="turismo-item.html" class="portfolio__item">
-                    <img src="img/turismo-card.png" alt="" class="portfolio__img">
-                </a> -->
-                
-                <!-- Portfolio item 06 -->
-                <a href="word-counter-item.html" class="portfolio__item">
-                    <img src="img/word-card.png" alt="" class="portfolio__img">
-                </a>
-                
-            </div>
-            <br><br>
-             <div>
-                <a href="https://github.com/bpadros?tab=repositories" target="_blank" class="btn-item">Click here for more projects</a>
-           
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+
         </div>
-        </section>
-        
-       
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <!-- replace with your own email address -->
-            <a href="mailto:bpadros@gmail.com" class="footer__link">bpadros@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/bpadros">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.facebook.com/benjamin.padros/">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/benjaminpadros/">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-              
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
-        </footer>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Benjamin Padros</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+        <img src="img/perfil cv.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+    </section>
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+
+            </div> <!-- / service -->
+
+
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+        <a href="#work" class="btn">My Resume</a>
+    </section>
+
+
+    <!-- About me -->
+    <div class="who-i-am">
+
+
+        <section id="about">
+            <h2 class="section__title section__title--about who">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Developer living in Tucuman,Argentina</p>
+            <p>I'm a Full-Stack web developer actually living in Tucuman,Argentina, passionate and curious about
+                building new useful web applications and projects.
+                After making a feature movie and travelling a couple of years I decided to start studying web
+                development in 2021, so I push myself into an intensive coding bootcamp where I have learned the MERN
+                stack.
+            </p>
+            <p>After finishing my bootcamp I continue making new projects on my own and continue studying
+                to learn more techonologies.</p>
+            <p>In October 2022 I started a learning acceleration program in Incubadora desafio latam to gain experience
+                in the IT area, through the creation of a project developed with a group of people in a real work
+                environment, guided by a Senior developer. </p>
+            <!-- <p>I love to create projects and show them to people,so it woluld 
+            be a pleasure if you take at some of them here in my portfolio,and 
+            remember that critics and advices are always 
+            welcome.So if you just have something lo tell me,just contact me and we keep in contact.</p> -->
+        </section>
+
+    </div>
+
+ 
+
+    <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <div class="contenedor">
+            <a href="" class="portfolio__item">
+                <img src="img/delivery-app-2.png" alt="" class="portfolio__img">
+            </a>
+            <h2 class="project-title">Delivery App</h2>
+            
+            <p class="project-text">Delivery clone app created with React-native where you can find the most popular restaurants in your city and order some food to your place.This was part of a practice to react-native development.
+                
+            </p>
+       
+                <div class="technologies">
+                    <p class="tech">#React-native</p><p class="tech">#Sanity</p><p class="tech">#TailwindCSS</p>
+                </div>
+                <br>
+           <div class="cont-links">
+            <a href="https://delivery-app-bpadros.vercel.app/" target="_blank" class="btn-links">LIVE</a>
+            <a href="https://github.com/bpadros/delivery-app" target="_blank"  class="btn-links">CODE</a>
+           </div>
+        </div>
+
+        <!-- Portfolio item 02 -->
+        <div class="contenedor">
+           
+                <img src="img/news-blog-body.png" alt="" class="portfolio__img">
+           
+            <h2 class="project-title">BLOG-NEWS</h2>
+            <p class="project-text">Full-stack project created with Node.js in the back-end , in this project you can login to your account after you complete the register form, and post text articles like a blog.
+            </p>
+           
+                <div class="technologies">
+                    <p class="tech">#Node.JS</p><p class="tech">#Ejs</p><p class="tech">#Html5</p><p class="tech">#MongoDB</p>
+                </div>
+                <br>
+           <div class="cont-links">
+            <a href="https://theblog-tgfy.onrender.com/" target="_blank" class="btn-links">LIVE</a>
+            <a href="https://github.com/bpadros/node-blog" target="_blank" class="btn-links">CODE</a>
+           </div>
+        </div>
         
+        <!-- Portfolio item 03 -->
+        <div class="contenedor">
+           
+                <img src="img/store1.png" alt="" class="portfolio__img">
+           
+            <h2 class="project-title">THE-STORE</h2>
+            <p class="project-text">An E-commerce store, in which i have to put in practice what I've learned about the Nest.js framework. Here you can access as an user or as an admin. 
+            </p>
+       
+                <div class="technologies">
+                    <p class="tech">#Html5</p><p class="tech">#Html5</p><p class="tech">#Html5</p><p class="tech">#Nest.js</p>
+                </div>
+                <br>
+           <div class="cont-links">
+            <a href="https://thestore.onrender.com/" target="_blank" class="btn-links">LIVE</a>
+            <a href="https://github.com/bpadros/a-nest-online-store1"  target="_blank" class="btn-links">CODE</a>
+           </div>
+        </div>  
+
+          
+        <!-- Portfolio item 04 -->
+        <div class="contenedor">
+            <!-- <a href="turismo-item.html" class="portfolio__item"> -->
+                <img src="img//movie-ticket-11.png" alt="" class="portfolio__img">
+            <!-- </a> -->
+            <h2 class="project-title">MOVIE-TICKETS</h2>
+            <p class="project-text">This React.js project was based in any movie-ticket app, the movies are from an API, in which you can look the movies that are released on theaters and after that get you ticket.
+            </p>
+            <!-- <h4 class="title-tech">Technologies involved</h4> -->
+                <div class="technologies">
+                    <p class="tech">#React.JS</p><p class="tech">#MaterialUI</p><p class="tech">#API</p><p class="tech">#CSS</p>
+                </div>
+                <br>
+           <div class="cont-links">
+            <a href="https://movie-tickets-65rfzdvgl-bpadros.vercel.app/"  target="_blank" class="btn-links">LIVE</a>
+            <a href="https://github.com/bpadros/movie-tickets-web" target="_blank"  class="btn-links">CODE</a>
+           </div>
+        </div>  
+
+          
+        <!-- Portfolio item 05 -->
+        <div class="contenedor">
+            <!-- <a href="turismo-item.html" class="portfolio__item"> -->
+                <img src="img/joey-banks-YApiWyp0lqo-unsplash.jpg" alt="" class="portfolio__img">
+            <!-- </a> -->
+            <h2 class="project-title">CARS</h2>
+            <p class="project-text">This was part of the second project of the full-stack bootcamp in which first we have to fill a form with all the validations. After that in the index you can see what you have search for in the form.
+            </p>
+            <!-- <h4 class="title-tech">Technologies involved</h4> -->
+                <div class="technologies">
+                    <p class="tech">#Html5</p><p class="tech">#CSS</p><p class="tech">#Bootstrap</p><p class="tech">#Javascript</p>
+                </div>
+                <br>
+           <div class="cont-links">
+            <a href="https://tu-auto.netlify.app/admin.html" target="_blank" class="btn-links">LIVE</a>
+            <a href="https://github.com/bpadros/Autos" target="_blank" class="btn-links">CODE</a>
+           </div>
+        </div>  
+
+          
+        <!-- Portfolio item 06 -->
+        <div class="contenedor">
+            <!-- <a href="turismo-item.html" class="portfolio__item"> -->
+                <img src="img/turismo-card.png" alt="" class="portfolio__img">
+            <!-- </a> -->
+            <h2 class="project-title">TOURISM</h2>
+            <p class="project-text">Responsive website created with HTML5 and CSS with the most important information divided into all the regions in the country. This was part of the first project in the full-stack web bootcamp.
+            </p>
+            <!-- <h4 class="title-tech">Technologies involved</h4> -->
+                <div class="technologies">
+                    <p class="tech">#Html5</p><p class="tech">#CSS</p><p class="tech">#Bootstrap</p>
+                </div>
+                <br>
+           <div class="cont-links">
+            <a href="https://turismo-argentina2022.netlify.app/"  target="_blank" class="btn-links">LIVE</a>
+            <a href="https://github.com/bpadros/Turismo" target="_blank" class="btn-links">CODE</a>
+           </div>
+        </div>  
+
         
-        <script src="js/index.js"></script>
-        
-    </body>
+    </div>
+
+
+    <br>
+
+
+    
+
+
+    <br><br>
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:bpadros@gmail.com" class="footer__link">bpadros@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/bpadros">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.facebook.com/benjamin.padros/">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/benjaminpadros/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
 </html>
