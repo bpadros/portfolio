@@ -394,7 +394,9 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    /* width: 80%; */
+  /* width: 90%;
+  justify-content: center; */
+
 }
 
 .portfolio__item {
@@ -404,13 +406,12 @@ header {
 }
 
 .portfolio__img {
-    /* width: 600px; */
+    
     height: 400px;
    width: 100%;
-    /* width: 363px;
-    height: 235px; */
+    
     border: 1px solid white;
-    margin: 4px;
+    /* margin: 4px; */
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
@@ -557,8 +558,9 @@ p{
     background-color:white;
     border-radius: 20px;
     padding-bottom: 40px;
-    width: 90%;
-    margin: 20px;
+    /* width: 90%; */
+    /* margin: auto; */
+    margin: 20px 70px;
 }
 
 .btn-links {
@@ -569,6 +571,10 @@ p{
    border-radius: 10px;
    background-color:black;
    color: white;
+}
+
+.btn-links:hover{
+    font-size: 30px;
 }
 
 .cont-links{
